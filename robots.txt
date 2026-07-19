@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zakirvisuals.github.io/FixZoneMobileWebsite/sitemap.xml

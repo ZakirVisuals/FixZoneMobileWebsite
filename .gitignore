@@ -1,0 +1,14 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+
+# Node (agar future mein koi build tool add karein)
+node_modules/
+package-lock.json
+
+# Env / secrets (agar kabhi API keys .env mein rakhein)
+.env
