@@ -1,0 +1,62 @@
+/* ==========================================================================
+   FORMS — Contact aur Booking dono forms isi ko use karenge
+   ========================================================================== */
+
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form label {
+    font-size: 14px;
+    color: var(--color-text-muted);
+    margin-bottom: -10px;
+}
+
+.form input,
+.form textarea {
+    padding: 14px;
+    border-radius: var(--radius-md);
+    background: var(--surface-lighter);
+    color: var(--color-text);
+    width: 100%;
+}
+
+.form select {
+    padding: 14px;
+    border-radius: var(--radius-md);
+    background: var(--surface-lighter);
+    color: var(--color-text);
+    width: 100%;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("/assets/icons/arrow/down.png");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 16px;
+    padding-right: 40px;
+}
+
+.form select option {
+    background: var(--color-bg-2);
+}
+
+.form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-success {
+    display: none;
+    color: var(--color-success);
+    text-align: center;
+}
+
+.form-success.show {
+    display: block;
+}

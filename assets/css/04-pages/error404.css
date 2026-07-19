@@ -1,0 +1,32 @@
+/* ==========================================================================
+   404 PAGE
+   ========================================================================== */
+
+.error-box {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.error-box h1 {
+    font-size: 100px;
+    background: linear-gradient(45deg, #00f5a0, #00d9f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.error-box h2 {
+    margin-bottom: var(--space-sm);
+}
+
+.error-box p {
+    margin-bottom: var(--space-lg);
+}
+
+.error-actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+}

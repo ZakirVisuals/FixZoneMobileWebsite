@@ -1,0 +1,32 @@
+/* ==========================================================================
+   PRICING PAGE — cards/grid shared classes se aate hain, sirf price text
+   aur disclaimer box yahan hai
+   ========================================================================== */
+
+.card li {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: 1px solid var(--surface-border);
+    font-size: 14px;
+}
+
+.card li:last-child {
+    border-bottom: none;
+}
+
+.price {
+    color: var(--color-success);
+    font-weight: var(--fw-semibold);
+    white-space: nowrap;
+}
+
+.pricing-disclaimer {
+    margin-top: var(--space-lg);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    text-align: center;
+    background: var(--accent-soft-bg);
+    border: 1px solid var(--accent-soft-border);
+    color: var(--color-accent);
+}

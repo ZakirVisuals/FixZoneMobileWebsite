@@ -1,0 +1,25 @@
+/* ==========================================================================
+   TESTIMONIALS PAGE — card shared/cards.css se aata hai, sirf stars
+   aur service-tag color yahan hai
+   ========================================================================== */
+
+.testimonial-stars {
+    color: var(--color-accent);
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 18px;
+}
+
+.testimonial-author {
+    font-weight: var(--fw-semibold);
+    color: var(--color-text);
+}
+
+.testimonial-service {
+    font-size: 13px;
+    color: var(--color-accent-blue);
+}

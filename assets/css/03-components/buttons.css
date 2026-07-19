@@ -1,0 +1,44 @@
+/* ==========================================================================
+   BUTTONS — reusable button styles, forms/CTAs sab isi ko use karenge
+   ========================================================================== */
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: var(--radius-pill);
+    background: linear-gradient(45deg, var(--color-navy), var(--color-accent-blue));
+    color: var(--color-text);
+    font-weight: var(--fw-semibold);
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(37, 99, 235, 0.35);
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid var(--surface-border);
+    box-shadow: none;
+}
+
+.btn-whatsapp {
+    background: var(--color-whatsapp);
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.25);
+}

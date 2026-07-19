@@ -1,0 +1,20 @@
+/* ==========================================================================
+   ABOUT PAGE — cards/grid shared classes se aate hain, sirf quote box
+   aur mentor heading yahan hain
+   ========================================================================== */
+
+.about-quote {
+    max-width: 700px;
+    margin: var(--space-lg) auto 0;
+    padding: var(--space-md);
+    text-align: center;
+    font-style: italic;
+    border-radius: var(--radius-lg);
+    background: var(--surface-light);
+    border: 1px solid var(--surface-border);
+}
+
+.mentor-box h2 {
+    text-align: center;
+    margin: var(--space-lg) 0 var(--space-md);
+}

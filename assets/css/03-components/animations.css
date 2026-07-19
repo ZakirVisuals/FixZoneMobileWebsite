@@ -1,0 +1,30 @@
+/* ==========================================================================
+   ANIMATIONS — scroll-reveal (element scroll karte waqt fade/slide in
+   hota hai). JS (animations.js) sirf class add/remove karta hai, actual
+   animation yahan CSS mein hai.
+   ========================================================================== */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

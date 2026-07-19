@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book a mobile repair appointment with FixZone.">
+    <meta name="author" content="FixZone">
+    <title>Book Appointment - FixZone</title>
+    <link rel="icon" href="/assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+    <div class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <header class="site-header">
+        <button class="nav-toggle" aria-label="Menu kholein">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="/index.html" class="logo">Fix<span>Zone<span> </a>
+    </header>
+
+    <div class="sidebar-overlay"></div>
+    <aside class="sidebar">
+        <div class="sidebar-close" aria-label="Menu band karein">✕</div>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/services.html">Services</a></li>
+            <li><a href="/pages/pricing.html">Pricing</a></li>
+            <li><a href="/pages/gallery.html">Gallery</a></li>
+            <li><a href="/pages/testimonials.html">Reviews</a></li>
+            <li><a href="/pages/faq.html">FAQ</a></li>
+            <li><a href="/pages/blog.html">Blog</a></li>
+            <li><a href="/pages/booking.html">Book Now</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <section class="page">
+            <div class="container-sm glass-box booking-box">
+                <h1>Book an Appointment</h1>
+                <p>Apna device, service aur preferred time bata dein — hum confirm kar denge.</p>
+
+                <form id="bookingForm" class="form mt-lg">
+                    <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+                    <input type="hidden" name="subject" value="New Appointment Booking - FixZone">
+
+                    <label>Your Name</label>
+                    <input type="text" name="name" placeholder="Your Name" required>
+
+                    <label>Phone Number</label>
+                    <input type="tel" name="phone" placeholder="Your Phone Number" required>
+
+                    <label>Device Model</label>
+                    <input type="text" name="device_model" placeholder="e.g. Samsung A52" required>
+
+                    <label>Service Needed</label>
+                    <select name="service_needed" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="LCD / Touch Screen Replacement">LCD / Touch Screen Replacement</option>
+                        <option value="Battery Replacement">Battery Replacement</option>
+                        <option value="Charging Port Repair">Charging Port Repair</option>
+                        <option value="Water Damage Repair">Water Damage Repair</option>
+                        <option value="Motherboard Repair">Motherboard Repair</option>
+                        <option value="Software Flashing">Software Flashing</option>
+                        <option value="FRP Removal">FRP Removal</option>
+                        <option value="Pattern / Password Reset">Pattern / Password Reset</option>
+                        <option value="Other">Other (mention in message)</option>
+                    </select>
+
+                    <!-- <label>Preferred Date</label> -->
+                    <!-- <input type="date" name="preferred_date" required> -->
+
+                    <!-- <label>Preferred Time</label> -->
+                    <!-- <input type="time" name="preferred_time" required> -->
+
+                    <label>Additional Message (optional)</label>
+                    <textarea name="message" rows="4" placeholder="Kuch aur batana ho to yahan likhein..."></textarea>
+
+                    <button type="submit" class="btn btn-block">Book Appointment</button>
+                    <p id="bookingSuccess" class="form-success">
+                        Appointment request sent successfully! Hum jald confirm karenge.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="logo">Fix<span>Zone</span></div>
+                <p>Professional mobile repair service in Jacobabad, Pakistan — fast, reliable, and trusted.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="/pages/services.html">All Services</a></li>
+                    <li><a href="/pages/pricing.html">Pricing</a></li>
+                    <li><a href="/pages/booking.html">Book Appointment</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>More</h3>
+                <ul>
+                    <li><a href="/pages/gallery.html">Gallery</a></li>
+                    <li><a href="/pages/testimonials.html">Reviews</a></li>
+                    <li><a href="/pages/faq.html">FAQ</a></li>
+                    <li><a href="/pages/blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 FixZone. All Rights Reserved. | Made with 💚 by @syedzHussein</p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/loader.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/navbar.js"></script>
+    <script src="/assets/js/whatsapp.js"></script>
+    <script src="/assets/js/scroll-top.js"></script>
+    <script src="/assets/js/animations.js"></script>
+    <script src="/assets/js/booking.js"></script>
+</body>
+
+</html>

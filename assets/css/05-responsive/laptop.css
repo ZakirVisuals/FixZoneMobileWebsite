@@ -1,0 +1,13 @@
+/* ==========================================================================
+   LAPTOP (1024px – 1439px) — ye base/default design hi hai (jo pehle se
+   02-layout aur 03-components mein defined hai). Is file mein overwrite
+   karne ke liye kuch nahi — isliye khaali/minimal hai, sirf structure
+   consistency ke liye rakhi gayi hai jaisa aapki spec mein thi.
+   ========================================================================== */
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    .page {
+        padding: 140px 10% 80px;
+    }
+}

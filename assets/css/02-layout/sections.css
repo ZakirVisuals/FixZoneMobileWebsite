@@ -1,0 +1,23 @@
+/* ==========================================================================
+   SECTIONS — generic page-content wrapper. Fixed header ki wajah se
+   content upar se chhupta nahi (isliye top padding zyada hai).
+   ========================================================================== */
+
+.page {
+    padding: 140px 10% 80px;
+}
+
+.page h1 {
+    text-align: center;
+    margin-bottom: var(--space-lg);
+}
+
+.page-intro {
+    max-width: 700px;
+    margin: 0 auto var(--space-lg);
+    text-align: center;
+}
+
+section {
+    display: block;
+}

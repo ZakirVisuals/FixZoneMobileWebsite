@@ -1,0 +1,9 @@
+/* ==========================================================================
+   FAQ PAGE — accordion styling shared/accordion.css se aata hai, sirf ye
+   page ka width wrapper yahan hai
+   ========================================================================== */
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+}

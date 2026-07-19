@@ -1,0 +1,88 @@
+/* ==========================================================================
+   MOBILE (up to 767px) — YAHI EK JAGAH HAI jahan design tablet/laptop/
+   desktop se different hota hai. Baaki teeno files (tablet/laptop/desktop)
+   mein kuch overwrite nahi karna parta kyunke navbar.css ka DEFAULT
+   state hi "desktop-style" hai — is file mein sirf mobile ke liye usse
+   badla ja raha hai.
+   ========================================================================== */
+
+@media (max-width: 768px) {
+
+    /* ----- Header ----- */
+    .site-header {
+        width: 95%;
+        padding: 0 4%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    /* ----- Nav: horizontal links chhupao, hamburger dikhao ----- */
+    .navbar {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    /* ----- Page content: chhota padding, fixed header ke liye jagah ----- */
+    .page {
+        padding: 120px 6% 60px;
+    }
+
+    .hero {
+        padding-top: 100px;
+    }
+
+    /* ----- Grids: 2/3 columns wale sab 1 column ban jayein
+       (overlap/squeeze na ho isliye) ----- */
+    .grid-2,
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+    /* ----- Gallery before/after: chhoti height taake screen se bahar na jaye ----- */
+    .gallery-compare img {
+        height: 130px;
+    }
+
+    /* ----- 404 heading chhota ----- */
+    .error-box h1 {
+        font-size: 70px;
+    }
+
+    /* ----- Floating buttons: mobile pe thoda chhote aur edges ke paas ----- */
+    .fab {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+        bottom: 15px;
+    }
+
+    .whatsapp-btn {
+        right: 15px;
+    }
+
+    .theme-toggle-btn {
+        left: 15px;
+    }
+
+    /* scroll-top-btn center hi rehta hai, left/right change nahi hoti */
+
+    .site-footer {
+        width: 95%;
+        padding: var(--space-md) 6% 0;
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr;
+        gap: var(--space-md);
+    }
+
+    /* ----- Sidebar chhote phones pe thodi zyada width le sakta hai ----- */
+    .sidebar {
+        width: 200px;
+    }
+}

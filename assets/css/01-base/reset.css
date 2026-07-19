@@ -1,0 +1,57 @@
+/* ==========================================================================
+   RESET — browser ke default spacing/behavior hataate hain taake sab
+   browsers mein site same dikhe aur elements overlap na hon.
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: border-box zaroori hai — isse padding/border kisi
+       element ki width ko unexpectedly bada nahi karta, jo overlap ka
+       sab se aam wajah hoti hai */
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+picture,
+video {
+    max-width: 100%;
+    display: block;
+    /* max-width: 100% -> image apne parent se bahar overflow nahi karegi */
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}

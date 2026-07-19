@@ -1,0 +1,38 @@
+/* ==========================================================================
+   HEADER — floating rounded top bar. Structure har screen size pe same
+   rehta hai, sirf andar (navbar.css mein) nav links vs hamburger switch
+   hota hai.
+   ========================================================================== */
+
+.site-header {
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 92%;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    background: var(--surface-header);
+    box-shadow: var(--shadow-strong);
+    backdrop-filter: blur(15px);
+    z-index: var(--z-header);
+    border-radius: var(--radius-sm);
+}
+
+/* Logo hamesha LEFT side pe rehta hai */
+.logo {
+    font-size: 35px;
+    font-weight: var(--fw-black);
+    color: var(--color-text);
+    order: 1;
+    cursor: pointer;
+    font-family: 'NormiyolaRegular-aYO3x';
+    src: url(/assets/fonts/logo-font/CelindaRegular-DY8ZD.otf);
+}
+
+.logo span {
+    color: var(--color-accent);
+}

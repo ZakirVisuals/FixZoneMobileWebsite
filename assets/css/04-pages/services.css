@@ -1,0 +1,25 @@
+/* ==========================================================================
+   SERVICES PAGE — cards/grid shared classes se aate hain, sirf ye
+   warning-note box yahan hai
+   ========================================================================== */
+
+.services-note {
+    margin-top: var(--space-lg);
+    padding: var(--space-sm) var(--space-md);
+    text-align: center;
+    border-radius: var(--radius-md);
+    background: var(--accent-soft-bg);
+    border: 1px solid var(--accent-soft-border);
+    color: var(--color-accent);
+}
+
+.card img {
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+    border-radius: var(--radius-md);
+    object-fit: cover;
+}
+

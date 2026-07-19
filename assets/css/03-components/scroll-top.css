@@ -1,0 +1,27 @@
+/* ==========================================================================
+   SCROLL-TOP (bottom-CENTER) + THEME-TOGGLE (bottom-LEFT) — dono ".fab"
+   base class use karte hain (whatsapp.css mein defined), isliye WhatsApp
+   ke sath visually consistent hain.
+   ========================================================================== */
+
+.scroll-top-btn {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: var(--z-scroll-top);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.scroll-top-btn.visible {
+    opacity: 0.5;
+    pointer-events: auto;
+}
+
+.scroll-top-btn:hover {
+    transform: translateX(-50%) translateY(-4px) scale(1.1);
+}
+
+.theme-toggle-btn {
+    left: 25px;
+    z-index: var(--z-scroll-top);
+}

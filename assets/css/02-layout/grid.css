@@ -1,0 +1,30 @@
+/* ==========================================================================
+   GRID — reusable grid patterns. Pehle har page (services, gallery,
+   pricing, testimonials) apna alag "-grid" class banata tha jo
+   asal mein same CSS thi — ab sab yehi shared classes use karenge.
+   ========================================================================== */
+
+.grid {
+    display: grid;
+    gap: var(--space-md);
+}
+
+/* Cards jo apne aap fit ho jayein, chhoti (min 260px) */
+.grid-auto-sm {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* Cards jo apne aap fit ho jayein, medium (min 300px) — pricing/services jese */
+.grid-auto-md {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Mobile pe grid-2 / grid-3 apne aap 1 column ho jayenge — 05-responsive/mobile.css mein */

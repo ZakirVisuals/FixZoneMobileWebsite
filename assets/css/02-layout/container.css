@@ -1,0 +1,30 @@
+/* ==========================================================================
+   CONTAINER — content ko center rakhne wala generic wrapper.
+   Isse har page apni "-box" class mein baar baar max-width/padding
+   likhne ki zaroorat nahi (jese pehle services-box, gallery-box,
+   pricing-box sab mein same cheez repeat ho rahi thi).
+   ========================================================================== */
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.glass-box {
+    padding: var(--space-lg);
+    border-radius: 25px;
+    background: var(--surface-light);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--surface-border);
+}
+
+.glass-box.text-center {
+    text-align: center;
+}

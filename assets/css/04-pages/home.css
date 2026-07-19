@@ -1,0 +1,48 @@
+/* ==========================================================================
+   HOME PAGE — sirf hero section, baaki sab shared classes se aata hai
+   ========================================================================== */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    background: linear-gradient(rgba(2, 40, 65, 0.6), rgba(2, 40, 65, 0.6)),
+        url('../../images/hero/hero-bg.jpg') center/cover no-repeat;
+}
+
+.hero h1 {
+    background: linear-gradient(
+        120deg,
+        var(--color-accent-blue),
+        var(--color-violet),
+        var(--color-rose),
+        var(--color-accent),
+        var(--color-violet),
+        var(--color-accent-blue)
+    );
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientFlow 10s ease infinite;
+}
+
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.hero h1 {
+    margin-bottom: var(--space-sm);
+    font-size:clamp(50px, 6vw, 100px);
+    font-family: var(--font-heading);
+}
+
+.hero p {
+    font-size: 18px;
+    color: aliceblue;
+}

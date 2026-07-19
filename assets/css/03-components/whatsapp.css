@@ -1,0 +1,40 @@
+/* ==========================================================================
+   WHATSAPP + shared ".fab" (floating action button) base — WhatsApp,
+   Scroll-top, aur Theme-toggle teeno isi .fab base se same size/shape/
+   glass style lete hain, taake "sab buttons same design" ho.
+   ========================================================================== */
+
+.fab {
+    position: fixed;
+    bottom: 25px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-circle);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    /* glassmorphism: transparent + blur, solid color nahi */
+    background: var(--surface-lighter);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--surface-border);
+    box-shadow: var(--shadow-strong);
+    color: var(--color-text);
+}
+
+.fab:hover {
+    transform: scale(1.1);
+}
+
+/* WhatsApp — RIGHT side. Glass hi hai, lekin halka green tint taake
+   brand color pehchana jaye */
+.whatsapp-btn {
+    right: 25px;
+    background: rgba(37, 211, 102, 0.35);
+    border-color: rgba(37, 211, 102, 0.5);
+    z-index: var(--z-whatsapp);
+}

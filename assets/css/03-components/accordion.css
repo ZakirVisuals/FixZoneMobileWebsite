@@ -1,0 +1,38 @@
+/* ==========================================================================
+   ACCORDION — FAQ page ke liye (aur future mein kahin aur bhi use ho sakta)
+   ========================================================================== */
+
+.accordion-item {
+    margin-bottom: var(--space-sm);
+    border-radius: var(--radius-lg);
+    background: var(--surface-light);
+    border: 1px solid var(--surface-border);
+}
+
+.accordion-question {
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-question span {
+    transition: transform 0.3s ease;
+}
+
+.accordion-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    transition: 0.4s ease;
+}
+
+.accordion-item.active .accordion-answer {
+    max-height: 300px;
+    padding: 15px 20px;
+}
+
+.accordion-item.active .accordion-question span {
+    transform: rotate(45deg);
+}

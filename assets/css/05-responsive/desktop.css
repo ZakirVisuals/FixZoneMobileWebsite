@@ -1,0 +1,12 @@
+/* ==========================================================================
+   DESKTOP (1440px+) — design tablet/laptop jesa hi hai, sirf bade
+   screens pe content bohat stretched na lage isliye container thoda
+   wider allow kiya hai.
+   ========================================================================== */
+
+@media (min-width: 1440px) {
+
+    .container {
+        max-width: 1250px;
+    }
+}

@@ -1,0 +1,14 @@
+/* ==========================================================================
+   BOOKING PAGE — form styling shared/forms.css se aata hai, sirf ye
+   page ka box wrapper yahan hai
+   ========================================================================== */
+
+.booking-box {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.booking-box>p {
+    text-align: center;
+    margin-bottom: var(--space-lg);
+}

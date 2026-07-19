@@ -1,0 +1,142 @@
+/* ==========================================================================
+   DESIGN TOKENS — saari site ke colors/fonts/spacing yahan se control hote hain.
+   Koi bhi color/spacing change karna ho to SIRF yahan badlein, poori site
+   automatically update ho jayegi.
+   ========================================================================== */
+
+:root {
+
+    /* ----- Colors: background gradient ----- */
+    --color-bg-1: #60849c;
+    --color-bg-2: #022841;
+    --color-bg-3: #0c4883;
+    --color-violet: #A855F7;
+    --color-rose: #EC4899;
+
+    /* ----- Colors: text ----- */
+    --color-text: #ffffff;
+    --color-text-muted: #e2e8f0;
+
+    /* ----- Colors: brand / accent ----- */
+    --color-accent: orange;
+    --color-accent-blue: #3b82f6;
+    --color-navy: #1e3a8a;
+
+    /* ----- Colors: status ----- */
+    --color-success: #4ade80;
+    --color-danger: #f87171;
+    --color-whatsapp: #25D366;
+
+    /* ----- Colors: surfaces (glass cards) ----- */
+    --surface-light: rgba(255, 255, 255, 0.06);
+    --surface-lighter: rgba(255, 255, 255, 0.08);
+    --surface-border: rgba(255, 255, 255, 0.1);
+    --surface-header: rgba(30, 58, 138, 0.9);
+    --link-hover-bg: rgba(14, 165, 233, 0.25);
+
+    /* ----- Colors: soft accent boxes (services-note, pricing-disclaimer) ----- */
+    --accent-soft-bg: rgba(255, 124, 2, 0.1);
+    --accent-soft-border: rgba(249, 115, 22, 0.3);
+
+    /* ----- Fonts ----- */
+    --font-primary: 'Poppins', sans-serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-black: 800;
+    --font-primary: 'Plus Jakarta Sans', sans-serif;
+    --font-heading: 'Neogen', sans-serif;
+
+    /* ----- Spacing scale ----- */
+    --space-xs: 8px;
+    --space-sm: 15px;
+    --space-md: 25px;
+    --space-lg: 40px;
+    --space-xl: 80px;
+
+    /* ----- Border radius ----- */
+    --radius-sm: 10px;
+    --radius-md: 15px;
+    --radius-lg: 20px;
+    --radius-pill: 50px;
+    --radius-circle: 50%;
+
+    /* ----- Shadows ----- */
+    --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.15);
+    --shadow-strong: 0 8px 30px rgba(8, 8, 8, 0.5);
+    --shadow-glow: 0 0 25px rgba(255, 255, 255, 0.4);
+
+    /* ----- Z-index scale (kis cheez ke upar kya dikhna chahiye) ----- */
+    --z-header: 1000;
+    --z-sidebar: 1100;
+    --z-sidebar-overlay: 1050;
+    --z-whatsapp: 900;
+    --z-scroll-top: 900;
+    --z-loader: 2000;
+    --z-modal: 1500;
+
+    /* ----- Layout ----- */
+    --container-width: 1100px;
+    --header-height: 70px;
+}
+
+/*
+   Breakpoints (CSS variables mein media queries nahi likhi ja saktin,
+   isliye ye sirf reference ke liye hain — asli breakpoints
+   05-responsive/ files mein hardcoded honge):
+
+   Mobile:            up to 767px   -> alag layout (sidebar nav)
+   Tablet/Laptop/Desktop: 768px+    -> same layout (jaisa aap ne kaha tha)
+*/
+
+/* ==========================================================================
+   LIGHT THEME — [data-theme="light"] <html> tag pe JS lagata hai (theme
+   toggle button click pe, main.js dekhein). Sirf background nahi — text,
+   glass cards, borders, shadows, sab isi jagah se control hote hain,
+   isliye poori site consistently badalti hai, sirf background nahi.
+   ========================================================================== */
+
+[data-theme="light"] {
+
+    /* ----- Colors: background ----- */
+    --color-bg-1: #d1606086;
+    --color-bg-2: #5c5c5c04;
+    --color-bg-3: #beb313d3;
+    /* halka purple tint gradient ke liye, Secondary color se derive kiya */
+
+    /* ----- Colors: text ----- */
+    --color-text: #1F2937;
+    --color-text-muted: #4B5563;
+
+    /* ----- Colors: brand / accent ----- */
+    --color-accent: #FFC107;
+    /* Highlight */
+    --color-accent-blue: #7C4DFF;
+    /* Primary */
+    --color-navy: #7C4DFF;
+    /* Primary — footer/buttons ka base tone */
+
+    /* ----- Colors: status (brand/semantic colors theme ke sath nahi badalte) ----- */
+    --color-success: #16A34A;
+    --color-danger: #DC2626;
+    --color-whatsapp: #25D366;
+
+    /* ----- Colors: surfaces (glass cards) ----- */
+    --surface-light: rgba(255, 255, 255, 0.671);
+    /* Glass Card */
+    --surface-lighter: rgba(201, 201, 201, 0.781);
+    --surface-border: rgba(31, 41, 55, 0.12);
+    --surface-header: rgba(255, 255, 255, 0.75);
+    --link-hover-bg: #E9D5FF;
+    /* Secondary */
+
+    /* ----- Colors: soft accent boxes ----- */
+    --accent-soft-bg: rgba(124, 77, 255, 0.08);
+    --accent-soft-border: rgba(124, 77, 255, 0.25);
+
+    /* ----- Shadows (halke, kyunke background hi light hai) ----- */
+    --shadow-soft: 0 8px 20px rgba(31, 41, 55, 0.08);
+    --shadow-strong: 0 8px 30px rgba(31, 41, 55, 0.15);
+    --shadow-glow: 0 0 25px rgba(124, 77, 255, 0.25);
+    /* --blog-toggle: 0 0 25px rgba(218, 18, 168, 0.904); */
+}

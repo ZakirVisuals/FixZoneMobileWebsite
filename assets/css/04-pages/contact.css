@@ -1,0 +1,21 @@
+/* ==========================================================================
+   CONTACT PAGE — form shared/forms.css se aata hai, sirf contact-details
+   block yahan hai
+   ========================================================================== */
+
+.contact-details {
+    margin-top: var(--space-lg);
+    text-align: center;
+}
+
+.contact-details h2 {
+    margin-bottom: var(--space-sm);
+}
+
+.contact-details p {
+    margin-bottom: 8px;
+}
+
+.email-btn {
+    color: var(--color-accent-blue);
+}

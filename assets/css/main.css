@@ -1,0 +1,54 @@
+/* ==========================================================================
+   MAIN.CSS — sab CSS files ko sahi tarteeb (order) mein jodne wali
+   master file. Har HTML page ab sirf isi EK file ko link karega
+   (pehle jese 2 alag CSS files link karni parti thin, ab nahi).
+
+   ORDER ZAROORI HAI: base pehle, phir layout, phir components, phir
+   page-specific, aur end mein responsive overrides — taake CSS ka
+   "cascade" sahi tarah kaam kare.
+   ========================================================================== */
+
+/* 01 - BASE */
+@import url('01-base/variables.css');
+@import url('01-base/reset.css');
+@import url('01-base/typography.css');
+@import url('01-base/base.css');
+@import url('01-base/utilities.css');
+
+/* 02 - LAYOUT */
+@import url('02-layout/container.css');
+@import url('02-layout/grid.css');
+@import url('02-layout/header.css');
+@import url('02-layout/navbar.css');
+@import url('02-layout/footer.css');
+@import url('02-layout/sections.css');
+
+/* 03 - COMPONENTS */
+@import url('03-components/buttons.css');
+@import url('03-components/cards.css');
+@import url('03-components/forms.css');
+@import url('03-components/modal.css');
+@import url('03-components/accordion.css');
+@import url('03-components/whatsapp.css');
+@import url('03-components/scroll-top.css');
+@import url('03-components/loader.css');
+@import url('03-components/animations.css');
+
+/* 04 - PAGES */
+@import url('04-pages/home.css');
+@import url('04-pages/about.css');
+@import url('04-pages/services.css');
+@import url('04-pages/pricing.css');
+@import url('04-pages/booking.css');
+@import url('04-pages/faq.css');
+@import url('04-pages/contact.css');
+@import url('04-pages/error404.css');
+@import url('04-pages/gallery.css');
+@import url('04-pages/testimonials.css');
+@import url('04-pages/blog.css');
+
+/* 05 - RESPONSIVE (hamesha sab se end mein, taake ye overrides sahi kaam karein) */
+@import url('05-responsive/mobile.css');
+@import url('05-responsive/tablet.css');
+@import url('05-responsive/laptop.css');
+@import url('05-responsive/desktop.css');
