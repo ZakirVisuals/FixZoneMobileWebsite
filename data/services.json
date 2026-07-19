@@ -2,29 +2,29 @@
   {
     "category": "Mobile Hardware Repairing",
     "services": [
-      { "name": "LCD / Touch Screen Replacement", "image": "/assets/images/services/lcd.jpg" },
-      { "name": "Battery Replacement", "image": "/assets/images/services/battery.jpg" },
-      { "name": "Charging Port Repair & Replacement", "image": "/assets/images/services/chargingport.jpg" },
-      { "name": "Speaker & Mic Repair", "image": "/assets/images/services/speaker-mic.jpg" },
-      { "name": "Camera Replacement", "image": "/assets/images/services/camera.WEBP" },
-      { "name": "Power / Volume Button Repair", "image": "/assets/images/services/buttons.jpg" },
-      { "name": "Water Damage Cleaning & Repair", "image": "/assets/images/services/water-damage.jpg" },
-      { "name": "Motherboard Level Repair", "image": "/assets/images/services/motherboard.jpg" },
-      { "name": "Network & Signal Issue Repair", "image": "/assets/images/services/network.png" }
+      { "name": "LCD / Touch Screen Replacement", "image": "../assets/images/services/lcd.jpg" },
+      { "name": "Battery Replacement", "image": "../assets/images/services/battery.jpg" },
+      { "name": "Charging Port Repair & Replacement", "image": "../assets/images/services/chargingport.jpg" },
+      { "name": "Speaker & Mic Repair", "image": "../assets/images/services/speaker-mic.jpg" },
+      { "name": "Camera Replacement", "image": "../assets/images/services/camera.WEBP" },
+      { "name": "Power / Volume Button Repair", "image": "../assets/images/services/buttons.jpg" },
+      { "name": "Water Damage Cleaning & Repair", "image": "../assets/images/services/water-damage.jpg" },
+      { "name": "Motherboard Level Repair", "image": "../assets/images/services/motherboard.jpg" },
+      { "name": "Network & Signal Issue Repair", "image": "../assets/images/services/network.png" }
     ]
   },
   {
     "category": "Mobile Software Services",
     "services": [
-      { "name": "Software Flashing / Firmware Installation", "image": "/assets/images/services/software-flash.png" },
-      { "name": "FRP Removal (with proof)", "image": "/assets/images/services/frp.jpeg" },
-      { "name": "Pattern / Password Reset", "image": "/assets/images/services/pattern.jpg" },
-      { "name": "Software Update & Downgrade", "image": "/assets/images/services/update.jpg" },
-      { "name": "Virus Removal", "image": "/assets/images/services/virus.jpg" },
-      { "name": "System Optimization", "image": "/assets/images/services/optimization.jpg" },
-      { "name": "Dead Boot Repair", "image": "/assets/images/services/dead-boot.jfif" },
-      { "name": "Data Backup & Restore", "image": "/assets/images/services/backup.jfif" },
-      { "name": "Google Account Issue Fix", "image": "/assets/images/services/google-account.jfif" }
+      { "name": "Software Flashing / Firmware Installation", "image": "../assets/images/services/software-flash.png" },
+      { "name": "FRP Removal (with proof)", "image": "../assets/images/services/frp.jpeg" },
+      { "name": "Pattern / Password Reset", "image": "../assets/images/services/pattern.jpg" },
+      { "name": "Software Update & Downgrade", "image": "../assets/images/services/update.jpg" },
+      { "name": "Virus Removal", "image": "../assets/images/services/virus.jpg" },
+      { "name": "System Optimization", "image": "../assets/images/services/optimization.jpg" },
+      { "name": "Dead Boot Repair", "image": "../assets/images/services/dead-boot.jfif" },
+      { "name": "Data Backup & Restore", "image": "../assets/images/services/backup.jfif" },
+      { "name": "Google Account Issue Fix", "image": "../assets/images/services/google-account.jfif" }
     ]
   }
 ]

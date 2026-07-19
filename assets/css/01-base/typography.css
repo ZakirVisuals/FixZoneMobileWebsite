@@ -4,19 +4,19 @@
 
 @font-face {
     font-family: 'Neogen';
-    src: url('/assets/fonts/Neogen-Black/Neogen-Black.ttf') format('woff2');
+    src: url('../..//fonts/Neogen-Black/Neogen-Black.ttf') format('woff2');
     font-weight: 2000;
 }
 
 @font-face {
     font-family: 'Plus Jakarta Sans';
-    src: url('/assets/fonts/Plus-Jakarta-Sans/PlusJakartaSans-Regular.woff2.ttf') format('woff2');
+    src: url('../..//fonts/Plus-Jakarta-Sans/PlusJakartaSans-Regular.woff2.ttf') format('woff2');
     font-weight: 400;
 }
 
 @font-face {
     font-family: "NormiyolaRegular-aYO3x";
-    src: url('/assets/fonts/logo-font/CelindaRegular-DY8ZD.otf') format('woff2');
+    src: url('../../fonts/logo-font/CelindaRegular-DY8ZD.otf') format('woff2');
 }
 
 body {

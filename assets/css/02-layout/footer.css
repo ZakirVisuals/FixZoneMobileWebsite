@@ -62,5 +62,5 @@
 .footer-bottom p {
     font-size: 13px;
     font-family: 'Plus Jakarta Sans';
-    src: url('/assets/fonts/Plus-Jakarta-Sans/PlusJakartaSans-Regular.woff2.ttf') format('woff2');
+    src: url('../assets/fonts/Plus-Jakarta-Sans/PlusJakartaSans-Regular.woff2.ttf') format('woff2');
 }

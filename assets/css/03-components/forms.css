@@ -30,7 +30,7 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url('/assets/icons/arrow/down.png');
+    background-image: url('../assets/icons/arrow/down.png');
     background-repeat: no-repeat;
     background-position: right 14px center;
     background-size: 16px;

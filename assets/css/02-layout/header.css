@@ -30,7 +30,7 @@
     order: 1;
     cursor: pointer;
     font-family: 'NormiyolaRegular-aYO3x';
-    src: url(/assets/fonts/logo-font/CelindaRegular-DY8ZD.otf);
+    src: url(../assets/fonts/logo-font/CelindaRegular-DY8ZD.otf);
 }
 
 .logo span {
