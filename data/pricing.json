@@ -2,29 +2,29 @@
   {
     "category": "Mobile Hardware Repairing",
     "items": [
-      { "name": "LCD / Touch Screen Replacement", "price": "Rs. ---" },
-      { "name": "Battery Replacement", "price": "Rs. ---" },
-      { "name": "Charging Port Repair & Replacement", "price": "Rs. ---" },
-      { "name": "Speaker & Mic Repair", "price": "Rs. ---" },
-      { "name": "Camera Replacement", "price": "Rs. ---" },
-      { "name": "Power / Volume Button Repair", "price": "Rs. ---" },
-      { "name": "Water Damage Cleaning & Repair", "price": "Rs. ---" },
-      { "name": "Motherboard Level Repair", "price": "Rs. ---" },
-      { "name": "Network & Signal Issue Repair", "price": "Rs. ---" }
+      { "name": "LCD / Touch Screen Replacement", "price": "Rs. TBC" },
+      { "name": "Battery Replacement", "price": "Rs. TBC" },
+      { "name": "Charging Port Repair & Replacement", "price": "Rs. TBC" },
+      { "name": "Speaker & Mic Repair", "price": "Rs. TBC" },
+      { "name": "Camera Replacement", "price": "Rs. TBC" },
+      { "name": "Power / Volume Button Repair", "price": "Rs. TBC" },
+      { "name": "Water Damage Cleaning & Repair", "price": "Rs. TBC" },
+      { "name": "Motherboard Level Repair", "price": "Rs. TBC" },
+      { "name": "Network & Signal Issue Repair", "price": "Rs. TBC" }
     ]
   },
   {
     "category": "Mobile Software Services",
     "items": [
-      { "name": "Software Flashing / Firmware Installation", "price": "Rs. ---" },
-      { "name": "FRP Removal (with proof)", "price": "Rs. ---" },
-      { "name": "Pattern / Password Reset", "price": "Rs. ---" },
-      { "name": "Software Update & Downgrade", "price": "Rs. ---" },
-      { "name": "Virus Removal", "price": "Rs. ---" },
-      { "name": "System Optimization", "price": "Rs. ---" },
-      { "name": "Dead Boot Repair", "price": "Rs. ---" },
-      { "name": "Data Backup & Restore", "price": "Rs. ---" },
-      { "name": "Google Account Issue Fix", "price": "Rs. ---" }
+      { "name": "Software Flashing / Firmware Installation", "price": "Rs. TBC" },
+      { "name": "FRP Removal (with proof)", "price": "Rs. TBC" },
+      { "name": "Pattern / Password Reset", "price": "Rs. TBC" },
+      { "name": "Software Update & Downgrade", "price": "Rs. TBC" },
+      { "name": "Virus Removal", "price": "Rs. TBC" },
+      { "name": "System Optimization", "price": "Rs. TBC" },
+      { "name": "Dead Boot Repair", "price": "Rs. TBC" },
+      { "name": "Data Backup & Restore", "price": "Rs. TBC" },
+      { "name": "Google Account Issue Fix", "price": "Rs. TBC" }
     ]
   }
 ]
