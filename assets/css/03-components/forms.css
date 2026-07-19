@@ -25,22 +25,31 @@
     width: 100%;
 }
 
-.form select {
-    padding: 14px;
-    border-radius: var(--radius-md);
-    background: var(--surface-lighter);
-    color: var(--color-text);
-    width: 100%;
 
+.form select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url("/assets/icons/arrow/down.png");
+    background-image: url('/assets/icons/arrow/down.png');
     background-repeat: no-repeat;
     background-position: right 14px center;
     background-size: 16px;
     padding-right: 40px;
+
+    /* filter se icon ka color approximate karein — values adjust kar
+       ke apni pasand ka color/brightness la sakte hain */
+    filter: brightness(0) invert(1);
+    /* abhi ye icon ko pure white bana deta hai; agar coloured icon
+       chahiye to filter line hata dein aur apna already-colored PNG use karein */
+
+    transition: background-position 0.25s ease;
 }
+
+.form select:focus {
+    background-position: right 10px center;
+    /* focus hone par arrow thoda andar shift hota hai — chhoti si animation */
+}
+
 
 .form select option {
     background: var(--color-bg-2);
