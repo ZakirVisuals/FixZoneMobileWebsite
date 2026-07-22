@@ -2,28 +2,23 @@
    TYPOGRAPHY — font family aur heading/paragraph sizes
    ========================================================================== */
 
-@font-face {
-    font-family: 'Neogen';
-    src: url('../..//fonts/Neogen-Black/Neogen-Black.ttf') format('woff2');
-    font-weight: 2000;
-}
-
-@font-face {
-    font-family: 'Plus Jakarta Sans';
-    src: url('../..//fonts/Plus-Jakarta-Sans/PlusJakartaSans-Regular.woff2.ttf') format('woff2');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "NormiyolaRegular-aYO3x";
-    src: url('../../fonts/logo-font/CelindaRegular-DY8ZD.otf') format('woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
 
 body {
     font-family: var(--font-primary);
     font-weight: var(--fw-regular);
     line-height: 1.6;
     font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Neogen-Black';
+    src: url(../../fonts/logo-font/Neogen-Black.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: 'CelindaRegular';
+    src: url(../../fonts/logo-font/CelindaRegular-DY8ZD.otf) format('woff2');
 }
 
 h1,
@@ -33,9 +28,7 @@ h4,
 h5,
 h6 {
     font-weight: var(--fw-black);
-    
     line-height: 1.3;
-
 }
 
 /* clamp() = screen size ke hisab se font apne aap chhota-bada hota hai,

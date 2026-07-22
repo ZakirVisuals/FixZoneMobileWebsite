@@ -11,5 +11,5 @@ whatsappBtn.href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(wh
 whatsappBtn.target = '_blank';
 whatsappBtn.classList.add('fab', 'whatsapp-btn');
 whatsappBtn.setAttribute('aria-label', 'WhatsApp par baat karein');
-whatsappBtn.innerHTML = '💬';
+// whatsappBtn.innerHTML = '💬';
 document.body.appendChild(whatsappBtn);

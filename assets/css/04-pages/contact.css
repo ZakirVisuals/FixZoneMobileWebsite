@@ -17,5 +17,6 @@
 }
 
 .email-btn {
-    color: var(--color-accent-blue);
+    color: orange;
+    font-family: 'CelindaRegular';
 }

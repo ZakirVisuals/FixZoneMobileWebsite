@@ -69,7 +69,7 @@ function renderServices() {
     const container = document.getElementById('servicesGrid');
     if (!container) return;
 
-    fetch('/data/services.json')
+    fetch('../data/services.json')
         .then(res => res.json())
         .then(data => {
             container.innerHTML = '';
@@ -110,7 +110,7 @@ function renderPricing() {
     const container = document.getElementById('pricingGrid');
     if (!container) return;
 
-    fetch('/data/pricing.json')
+    fetch('../data/pricing.json')
         .then(res => res.json())
         .then(data => {
             container.innerHTML = '';

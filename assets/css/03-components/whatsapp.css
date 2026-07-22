@@ -34,7 +34,13 @@
    brand color pehchana jaye */
 .whatsapp-btn {
     right: 25px;
-    background: rgba(37, 211, 102, 0.35);
-    border-color: rgba(37, 211, 102, 0.5);
+    background: rgb(3, 22, 10);
+    border-color: rgba(22, 141, 66, 0.5);
     z-index: var(--z-whatsapp);
+
+    background-image: url(../../icons/whatsapp/whatsapp.png);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }

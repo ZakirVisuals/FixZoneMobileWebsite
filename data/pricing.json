@@ -2,29 +2,28 @@
   {
     "category": "Mobile Hardware Repairing",
     "items": [
-      { "name": "LCD / Touch Screen Replacement", "price": "Rs. TBC" },
-      { "name": "Battery Replacement", "price": "Rs. TBC" },
-      { "name": "Charging Port Repair & Replacement", "price": "Rs. TBC" },
-      { "name": "Speaker & Mic Repair", "price": "Rs. TBC" },
-      { "name": "Camera Replacement", "price": "Rs. TBC" },
-      { "name": "Power / Volume Button Repair", "price": "Rs. TBC" },
-      { "name": "Water Damage Cleaning & Repair", "price": "Rs. TBC" },
-      { "name": "Motherboard Level Repair", "price": "Rs. TBC" },
-      { "name": "Network & Signal Issue Repair", "price": "Rs. TBC" }
+      { "name": "LCD / Touch Screen Replacement", "price": "Rs. 2,500 - 5,000" },
+      { "name": "Battery Replacement", "price": "Rs. 1,500 - 3,000" },
+      { "name": "Charging Port Repair & Replacement", "price": "Rs. 800 - 1,500 " },
+      { "name": "Speaker & Mic Repair", "price": "Rs. 600 - 1,200" },
+      { "name": "Camera Replacement", "price": "Rs. 1,500 - 3,500" },
+      { "name": "Power / Volume Button Repair", "price": "Rs. 500 - 1,100" },
+      { "name": "Water Damage Cleaning & Repair", "price": "Rs. 2,500 - 4,000" },
+      { "name": "Motherboard Level Repair", "price": "Rs. 3,00 - 6,000" },
+      { "name": "Network & Signal Issue Repair", "price": "Rs. 450 - 1050" }
     ]
   },
   {
     "category": "Mobile Software Services",
     "items": [
-      { "name": "Software Flashing / Firmware Installation", "price": "Rs. TBC" },
-      { "name": "FRP Removal (with proof)", "price": "Rs. TBC" },
-      { "name": "Pattern / Password Reset", "price": "Rs. TBC" },
-      { "name": "Software Update & Downgrade", "price": "Rs. TBC" },
-      { "name": "Virus Removal", "price": "Rs. TBC" },
-      { "name": "System Optimization", "price": "Rs. TBC" },
-      { "name": "Dead Boot Repair", "price": "Rs. TBC" },
-      { "name": "Data Backup & Restore", "price": "Rs. TBC" },
-      { "name": "Google Account Issue Fix", "price": "Rs. TBC" }
+      { "name": "Software Flashing / Firmware Installation", "price": "Rs. 500 - 2,500" },
+      { "name": "FRP Removal (with proof)", "price": "Rs. 1,000 - 3,000" },
+      { "name": "Pattern / Password Reset", "price": "Rs. 500 - 2,500" },
+      { "name": "Software Update & Downgrade", "price": "Rs. 600 - 1,400" },
+      { "name": "Virus Removal", "price": "Rs. 400 - 1,800" },
+      { "name": "System Optimization", "price": "Rs. 500 - 1,500" },
+      { "name": "Dead Boot Repair", "price": "Rs. 3,000 - 8,000" },
+      { "name": "Google Account Issue Fix", "price": "Rs. 300 - 600" }
     ]
   }
 ]

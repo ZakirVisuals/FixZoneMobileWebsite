@@ -13,21 +13,22 @@
         url('../../images/hero/hero-bg.webp') center/cover no-repeat;
 }
 
+
 .hero h1 {
     background: linear-gradient(
         120deg,
-        var(--color-accent-blue),
-        var(--color-violet),
-        var(--color-rose),
-        var(--color-accent),
-        var(--color-violet),
-        var(--color-accent-blue)
+        var(--color-repair),
+        var(--color-with),
+        var(--color-confidence),
+        var(--color-confidence),
+        var(--color-with),
+        var(--color-repair)
     );
     background-size: 300% 300%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: gradientFlow 10s ease infinite;
+    animation: gradientFlow 7s ease infinite;
 }
 
 @keyframes gradientFlow {
@@ -39,7 +40,7 @@
 .hero h1 {
     margin-bottom: var(--space-sm);
     font-size:clamp(50px, 6vw, 100px);
-    font-family: var(--font-heading);
+    font-family: 'Neogen-Black';
 }
 
 .hero p {

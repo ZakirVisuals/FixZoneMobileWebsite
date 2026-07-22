@@ -18,9 +18,14 @@
     --color-text-muted: #e2e8f0;
 
     /* ----- Colors: brand / accent ----- */
-    --color-accent: orange;
+    --color-accent: rgb(255, 165, 0);
     --color-accent-blue: #3b82f6;
     --color-navy: #1e3a8a;
+
+      /* ----- Colors: Repair With Confidence ----- */
+      --color-repair: #000000;
+      --color-with: #fcfcfc;
+      --color-confidence: rgb(255, 165, 0);
 
     /* ----- Colors: status ----- */
     --color-success: #4ade80;
@@ -39,13 +44,13 @@
     --accent-soft-border: rgba(249, 115, 22, 0.3);
 
     /* ----- Fonts ----- */
-    --font-primary: 'Poppins', sans-serif;
+    --font-primary: 'Anton', sans-serif;
     --fw-light: 300;
     --fw-regular: 400;
     --fw-semibold: 600;
     --fw-black: 800;
     --font-primary: 'Plus Jakarta Sans', sans-serif;
-    --font-heading: 'Neogen', sans-serif;
+    --font-header: 'Neogen-Black'
 
     /* ----- Spacing scale ----- */
     --space-xs: 8px;
